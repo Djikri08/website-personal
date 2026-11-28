@@ -35,10 +35,10 @@ const PORTFOLIO = {
     { role: "Anggota Organisasi", place: "Himpunan Teknik Informatika", period: "2022 - 2024", desc: "Mengelola kegiatan dan sumber daya manusia(SDM) organisasi." }
   ],
   projects: [
-    { id: "web-sekolah", name: "Website Sekolah", image: "assets/images/projects/project1.png", gallery: [
-    "assets/images/projects/project1.png",
-    "assets/images/projects/project1.png",
-    "assets/images/projects/project1.png"
+    { id: "web-sekolah", name: "Website Sekolah", image: "assets/images/projects/Project1.png", gallery: [
+    "assets/images/projects/Project1.png",
+    "assets/images/projects/Project1.png",
+    "assets/images/projects/Project1.png"
   ], desc: "Website Sistem Pendukung Keputusan Penilaian Kompetensi Guru .", long: "Website Sistem Pendukung Keputusan Penilaian Kompetensi Guru yang responsif dengan halaman dashboard, kriteria, Kelompok kriteria, dan informasi data guru.", tech: ["HTML", "CSS", "JavaScript"], demo: "#", github: "https://github.com/username/web-sekolah" },
     { id: "apk-ingatin", name: "aplikasi ingatin", image: "assets/images/projects/project2.png",gallery: [
     "assets/images/projects/project2.png",
@@ -48,7 +48,7 @@ const PORTFOLIO = {
     { id: "web-sembako", name: "website kasir toko sembako", image: "assets/images/projects/project3.png",gallery: [
     "assets/images/projects/project2.png",
     "assets/images/projects/project3.png",
-    "assets/images/projects/project1.png"
+    "assets/images/projects/Project1.png"
   ], desc: "website toko sembako.", long: "website toko sembako yang responsif dengan fitur kasir dan rekap data mulai dari harian hingga tahunan.", tech: ["PHP", "MySQL"], demo: "#", github: "https://github.com/username/absensi" }
   ],
   certificates: [
