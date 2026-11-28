@@ -15,7 +15,7 @@ const PORTFOLIO = {
     whatsapp: "6285930475131",   // format 62xxxxxxxxxx tanpa +
     github: "https://github.com/Djikri08",
     instagram: "https://instagram.com/_frdynsyh28",
-    linkedin: "https://linkedin.com/in/Djikri-Ferdiyansyah"
+    linkedin: "https://www.linkedin.com/in/djikri-ferdiyansyah"
   },
   skills: {
     "Frontend Development": [["HTML5", 90], ["CSS3", 85], ["JavaScript", 80], ["Bootstrap", 85]],
@@ -35,9 +35,21 @@ const PORTFOLIO = {
     { role: "Anggota Organisasi", place: "Himpunan Teknik Informatika", period: "2022 - 2024", desc: "Mengelola kegiatan dan sumber daya manusia(SDM) organisasi." }
   ],
   projects: [
-    { id: "web-sekolah", name: "Website Sekolah", image: "assets/images/projects/Project1.png", desc: "Website Sistem Pendukung Keputusan Penilaian Kompetensi Guru .", long: "Website Sistem Pendukung Keputusan Penilaian Kompetensi Guru yang responsif dengan halaman dashboard, kriteria, Kelompok kriteria, dan informasi data guru.", tech: ["HTML", "CSS", "JavaScript"], demo: "#", github: "https://github.com/username/web-sekolah" },
-    { id: "apk-ingatin", name: "aplikasi ingatin", image: "assets/images/projects/project2.png", desc: "Aplikasi pengingat tugas .", long: "Aplikasi Pengingat tugas dengan fitur notifikasi alarem.", tech: ["AndroidStudio","PHP", "JavaScript"], demo: "#", github: "https://github.com/username/toko-online" },
-    { id: "web-sembako", name: "website kasir toko sembako", image: "assets/images/projects/project3.png", desc: "website toko sembako.", long: "website toko sembako yang responsif dengan fitur kasir dan rekap data mulai dari harian hingga tahunan.", tech: ["PHP", "MySQL"], demo: "#", github: "https://github.com/username/absensi" }
+    { id: "web-sekolah", name: "Website Sekolah", image: "assets/images/projects/project1.png", gallery: [
+    "assets/images/projects/project1.png",
+    "assets/images/projects/project1.png",
+    "assets/images/projects/project1.png"
+  ], desc: "Website Sistem Pendukung Keputusan Penilaian Kompetensi Guru .", long: "Website Sistem Pendukung Keputusan Penilaian Kompetensi Guru yang responsif dengan halaman dashboard, kriteria, Kelompok kriteria, dan informasi data guru.", tech: ["HTML", "CSS", "JavaScript"], demo: "#", github: "https://github.com/username/web-sekolah" },
+    { id: "apk-ingatin", name: "aplikasi ingatin", image: "assets/images/projects/project2.png",gallery: [
+    "assets/images/projects/project2.png",
+    "assets/images/projects/project2.png",
+    "assets/images/projects/project2.png"
+  ], desc: "Aplikasi pengingat tugas .", long: "Aplikasi Pengingat tugas dengan fitur notifikasi alarem.", tech: ["AndroidStudio","PHP", "JavaScript"], demo: "#", github: "https://github.com/username/toko-online" },
+    { id: "web-sembako", name: "website kasir toko sembako", image: "assets/images/projects/project3.png",gallery: [
+    "assets/images/projects/project2.png",
+    "assets/images/projects/project3.png",
+    "assets/images/projects/project1.png"
+  ], desc: "website toko sembako.", long: "website toko sembako yang responsif dengan fitur kasir dan rekap data mulai dari harian hingga tahunan.", tech: ["PHP", "MySQL"], demo: "#", github: "https://github.com/username/absensi" }
   ],
   certificates: [
     { name: "Web Development", issuer: "BNSP", year: 2026, image: "assets/images/certificates/cert1.jpg", link: "assets/images/certificates/cert1.jpg" },
